@@ -318,7 +318,8 @@ a {
 
     .main__cover {
         max-width: 1024px;
-        object-fit: cover;
+        object-fit: contain;
+        height: 100%;
     }
 
     .sectionservicios,
@@ -394,6 +395,94 @@ a {
         max-width: 1024px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .supermain {
+        margin: 0;
+        padding: 0;
+        max-width: 768px;
+    }
+
+    .header {
+        max-width: 768px;
+    }
+
+    .main__cover {
+        max-width: 768px;
+    }
+
+    .sectionservicios,
+    .sectiontestimonios {
+        max-width: 768px;
+    }
+
+    .sectionservicios__container,
+    .sectiontestimonios__container {
+        max-width: 768px;
+    }
+
+    .aboutcontainer {
+        max-width: 768px;
+    }
+
+    .aboutcontainer__image{
+        width: 60%;
+        height: 100%;
+        padding-right: 1rem;
+    }
+
+    .aboutcontainer__text {
+        padding: 0;
+        padding-right: 1rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .servicioscontainer {
+        max-width: 768px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .servicioscontainer__servicio {
+        max-width: 768px;
+    }
+
+    .servicioscontainer__text {
+        padding: 0;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .galeriacontainer {
+        max-width: 768px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .galeriacontainer__galeria {
+        flex-wrap: wrap;
+    }
+
+    .galeriacontainer__img {
+        width: 46%;
+        height: 25rem;
+        object-fit: cover;
+        padding: 1rem;
+    }
+
+    .contactocontainer__form input,
+    .contactocontainer__form textarea {
+        box-sizing: border-box;
+    }
+
+    .footer {
+        max-width: 768px;
+    }
+}
+
 /*
 @media screen and (max-width: 425px) {
     .supermain {
