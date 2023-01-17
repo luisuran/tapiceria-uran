@@ -271,6 +271,11 @@ a {
     width: 20rem;
     object-fit:cover
 }
+
+.galeriacontainer__img:hover {
+    object-fit: contain;
+    transform: scale(1.5);
+}
 /* Fin galería */
 
 
