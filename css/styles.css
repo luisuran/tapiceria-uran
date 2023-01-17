@@ -352,11 +352,19 @@ a {
         width: 100%;
     }
 
+    .sectiontestimonios {
+        width: 80%;
+    }
+
     .sectiontestimonios__container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .sectiontestimonios__testimonio {
         width: 100%;
     }
 
