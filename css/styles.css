@@ -305,6 +305,96 @@ a {
 /* Fin contacto */
 
 /* Media queries */
+@media screen and (max-width: 1024px) {
+    .supermain {
+        margin: 0;
+        padding: 0;
+        max-width: 1024px;
+    }
+
+    .header {
+        max-width: 1024px;
+    }
+
+    .main__cover {
+        max-width: 1024px;
+        object-fit: cover;
+    }
+
+    .sectionservicios,
+    .sectiontestimonios {
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 1024px;
+    }
+
+    .sectionservicios__container,
+    .sectiontestimonios__container {
+        max-width: 1024px;
+    }
+
+    .aboutcontainer {
+        max-width: 1024px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .aboutcontainer__image{
+        padding-right: 1rem;
+    }
+
+    .aboutcontainer__text {
+        padding: 0;
+        padding-right: 1rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .servicioscontainer {
+        max-width: 1024px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .servicioscontainer__servicio {
+        max-width: 1024px;
+    }
+
+    .servicioscontainer__text {
+        padding: 0;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .galeriacontainer {
+        max-width: 1024px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .galeriacontainer__galeria {
+        flex-wrap: wrap;
+    }
+
+    .galeriacontainer__img {
+        width: 46%;
+        height: 25rem;
+        object-fit: cover;
+        padding: 1rem;
+    }
+
+    .contactocontainer__form input,
+    .contactocontainer__form textarea {
+        box-sizing: border-box;
+    }
+
+    .footer {
+        max-width: 1024px;
+    }
+}
+/*
 @media screen and (max-width: 425px) {
     .supermain {
         margin: 0;
@@ -437,11 +527,6 @@ a {
         width: 100%;
     }
 
-    .contactocontainer__form input,
-    .contactocontainer__form textarea {
-        box-sizing: border-box;
-    }
-
     .bottom {
         height: 0;
     }
@@ -451,3 +536,4 @@ a {
         max-width: 425px;
     }
 }
+*/
