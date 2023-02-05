@@ -1,0 +1,19 @@
+.contactocontainer {
+  @include flex-center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 2rem;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40rem;
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+  }
+}

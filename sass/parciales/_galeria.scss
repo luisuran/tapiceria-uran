@@ -1,0 +1,21 @@
+.galeriacontainer {
+  @include flex-center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 2rem;
+  &__galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  &__img {
+    height: 25rem;
+    width: 20rem;
+    object-fit: cover;
+    &:hover {
+      object-fit: contain;
+      transform: scale(1.5);
+    }
+  }
+}

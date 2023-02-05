@@ -1,0 +1,17 @@
+.footer {
+  @include flex-center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  padding: 0.3rem 0;
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50rem;
+  }
+  &__logo {
+    width: 3rem;
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  &__logo {
+    width: 10rem;
+    height: 3rem;
+    object-fit: cover;
+    justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__listitem {
+    list-style: none;
+    &__anchor {
+      text-decoration: none;
+      margin-right: 0.3rem;
+      padding: 0.4rem;
+      font-size: 1.5rem;
+      color: black;
+      &-selected {
+        color: #fff;
+        background-color: gray;
+      }
+      &:hover {
+        color: #fff;
+        background-color: gray;
+      }
+    }
+  }
+}

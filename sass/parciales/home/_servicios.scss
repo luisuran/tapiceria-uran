@@ -1,0 +1,29 @@
+.sectionservicios {
+  @include flex-center;
+  flex-direction: column;
+  padding: 2rem;
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70rem;
+  }
+  &__logo {
+    width: 8rem;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  &__text {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  &__button {
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+    &:hover {
+      background-color: gray;
+      color: white;
+    }
+  }
+}

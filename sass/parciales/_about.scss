@@ -1,0 +1,23 @@
+.aboutcontainer {
+  @include flex-center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 2rem;
+  &__image {
+    width: 50rem;
+    height: 48rem;
+  }
+  &__text {
+    padding: 9rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    object-fit: cover;
+  }
+}
+
+.aboutinnercontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
