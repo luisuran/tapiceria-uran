@@ -2,10 +2,14 @@
   @include flex-center;
   flex-direction: column;
   padding: 2rem;
+  padding-left:0;
+  padding-right: 0;
   margin-top: 2rem;
   &__image {
-    width: 50rem;
+    width: 40vw;
     height: 48rem;
+    padding-left: 1rem;
+    object-fit: cover;
   }
   &__text {
     padding: 9rem;
