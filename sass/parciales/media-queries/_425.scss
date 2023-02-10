@@ -92,6 +92,7 @@
 
   .aboutcontainer__text {
     padding: 0;
+    width: 85%;
     font-size: 1rem;
     text-align: left;
   }
@@ -115,6 +116,10 @@
   .servicioscontainer__text {
     padding: 0;
     font-size: 1rem;
+  }
+
+  .servicioscontainer__text__title {
+    font-size: 1.5rem;
   }
 
   .galeriacontainer {
