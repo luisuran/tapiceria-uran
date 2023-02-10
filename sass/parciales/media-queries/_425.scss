@@ -26,6 +26,17 @@
   .header__listitem {
     width: 100%;
     border: 1px solid gray;
+    box-sizing: border-box;
+  }
+
+  .header__listitem__anchor {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .header__listitem__anchor {
@@ -71,8 +82,12 @@
   }
 
   .aboutcontainer__image {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .aboutcontainer__text {
@@ -112,7 +127,11 @@
   }
 
   .galeriacontainer__img {
-    width: 25rem;
+    width: 95vw;
+    height: 100vw;
+    object-fit: cover;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .galeriacontainer__galeria {
@@ -138,5 +157,9 @@
   .footer {
     position: relative;
     max-width: 425px;
+  }
+
+  .footer__container {
+    width: 100%;
   }
 }
